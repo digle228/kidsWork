@@ -10,18 +10,45 @@ import UIKit
 
 class ticRecoderViewController: UIViewController {
 
-    @IBOutlet weak var ticAboutLife: UISlider!
+//    @IBOutlet weak var ticAboutLife: UISlider!
+//    
+//    let step: Float = 1
+//
+//    @IBAction func sliderValueChanged(sender: UISlider) {
+//        let roundedValue = round(sender.value / step) * step
+//        sender.value = roundedValue
+//    }
+//    
+    
+//    class MyClass: UIView {
+//        
+//        class func instanceFromNib() -> UIView {
+//            return UINib(nibName: "trackbar", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! UIView
+//        }
+//        
+//        
+//    }
+//    
+//    var view = MyClass.instanceFromNib()
+//    self.view.addSubview(view)
+//
+    
+
+    @IBOutlet weak var trackLabel: UILabel!
+    
+    @IBOutlet weak var trackView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ticAboutLife.transform = CGAffineTransformMakeRotation(CGFloat(-M_PI_2))
-        ticAboutLife.maximumValue = 10
-        ticAboutLife.minimumValue = 0
-        ticAboutLife.setThumbImage(UIImage(named: "dontlazy.png"), forState: UIControlState.Normal)
+
+        
         
         
         // Do any additional setup after loading the view.
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

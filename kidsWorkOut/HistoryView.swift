@@ -14,7 +14,21 @@ import UIKit
     
     var view: UIView!
     
-    @IBOutlet var clear: UIView!
+    @IBOutlet var dayTic: UIView!
+    
+    @IBOutlet var weekTic: UIView!
+    
+    @IBOutlet var monthTic: UIView!
+    
+    @IBOutlet var yearTic: UIView!
+    
+    @IBOutlet var dayBoth: UIView!
+    
+    @IBOutlet var weekBoth: UIView!
+    
+    @IBOutlet var monthBoth: UIView!
+    
+    @IBOutlet var yearBoth: UIView!
     
     @IBOutlet var day: UIView!
     

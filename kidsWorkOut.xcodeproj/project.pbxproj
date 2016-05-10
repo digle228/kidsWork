@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910B4E691CDECBDD008F6FA8 /* personalRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B4E681CDECBDD008F6FA8 /* personalRank.swift */; };
+		910B4E6B1CE06935008F6FA8 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B4E6A1CE06935008F6FA8 /* SettingTableViewController.swift */; };
 		9113E5F21CD1CC000013AD08 /* pageViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113E5F11CD1CC000013AD08 /* pageViewControllerMain.swift */; };
 		9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */; };
+		915293951CD4DE34009A42E8 /* trackBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915293941CD4DE34009A42E8 /* trackBar.xib */; };
+		915293971CD4E283009A42E8 /* trackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915293961CD4E283009A42E8 /* trackBar.swift */; };
 		91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E491C86922C00695078 /* AppDelegate.swift */; };
 		91746E4C1C86922C00695078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E4B1C86922C00695078 /* ViewController.swift */; };
 		91746E4F1C86922C00695078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91746E4D1C86922C00695078 /* Main.storyboard */; };
@@ -30,8 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910B4E681CDECBDD008F6FA8 /* personalRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personalRank.swift; sourceTree = "<group>"; };
+		910B4E6A1CE06935008F6FA8 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		9113E5F11CD1CC000013AD08 /* pageViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageViewControllerMain.swift; sourceTree = "<group>"; };
 		9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ticRecoderViewController.swift; sourceTree = "<group>"; };
+		915293941CD4DE34009A42E8 /* trackBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trackBar.xib; sourceTree = "<group>"; };
+		915293961CD4E283009A42E8 /* trackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trackBar.swift; sourceTree = "<group>"; };
 		91746E461C86922C00695078 /* kidsWorkOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsWorkOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91746E491C86922C00695078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91746E4B1C86922C00695078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,11 +97,15 @@
 				91746E4B1C86922C00695078 /* ViewController.swift */,
 				91746E5E1C87C73800695078 /* MainPageViewController.swift */,
 				91746E601C87CED900695078 /* MainViewController.swift */,
+				910B4E681CDECBDD008F6FA8 /* personalRank.swift */,
 				91DEB0441CD128930040A3CB /* RankingViewController.swift */,
 				91912F1B1CA41C1200D8AC9A /* firstPageViewController.swift */,
+				910B4E6A1CE06935008F6FA8 /* SettingTableViewController.swift */,
 				91746E5B1C86EA9500695078 /* MainTabBarViewController.swift */,
 				91912F1D1CA68D7700D8AC9A /* HistoryViewController.swift */,
 				9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */,
+				915293961CD4E283009A42E8 /* trackBar.swift */,
+				915293941CD4DE34009A42E8 /* trackBar.xib */,
 				91DEB0481CD12E8D0040A3CB /* MainPageBrainMan.xib */,
 				91DEB0461CD12E610040A3CB /* MainPageBrainMan.swift */,
 				91F5C5DA1CD073B20049F7C0 /* HistoryView.xib */,
@@ -174,6 +186,7 @@
 				91746E511C86922C00695078 /* Assets.xcassets in Resources */,
 				91746E4F1C86922C00695078 /* Main.storyboard in Resources */,
 				9193D9181CD1A3B000422BA9 /* kidsWorkOutLanchScreen.xib in Resources */,
+				915293951CD4DE34009A42E8 /* trackBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,13 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910B4E6B1CE06935008F6FA8 /* SettingTableViewController.swift in Sources */,
 				91746E5F1C87C73800695078 /* MainPageViewController.swift in Sources */,
 				91746E631C8833E100695078 /* MainCollectionViewController.swift in Sources */,
 				91746E5C1C86EA9500695078 /* MainTabBarViewController.swift in Sources */,
+				915293971CD4E283009A42E8 /* trackBar.swift in Sources */,
 				91746E4C1C86922C00695078 /* ViewController.swift in Sources */,
 				9113E5F21CD1CC000013AD08 /* pageViewControllerMain.swift in Sources */,
 				91912F1C1CA41C1200D8AC9A /* firstPageViewController.swift in Sources */,
 				91DEB0451CD128930040A3CB /* RankingViewController.swift in Sources */,
+				910B4E691CDECBDD008F6FA8 /* personalRank.swift in Sources */,
 				91DEB0471CD12E610040A3CB /* MainPageBrainMan.swift in Sources */,
 				91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */,
 				9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */,

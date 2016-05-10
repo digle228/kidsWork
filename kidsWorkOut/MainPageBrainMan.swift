@@ -19,6 +19,16 @@ import UIKit
     
     @IBOutlet var brain2: UIView!
 
+    @IBOutlet var brain3: UIView!
+
+    @IBOutlet var brain4: UIView!
+
+    @IBOutlet var brain5: UIView!
+
+    @IBOutlet var brain6: UIView!
+
+    @IBOutlet var brain7: UIView!
+
     
     func xibSetup() {
         view = loadViewFromNib()
