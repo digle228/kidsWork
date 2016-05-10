@@ -5,12 +5,16 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
-      "filename" : "750x1334.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "30x30-dot.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "3x"
     }
   ],
