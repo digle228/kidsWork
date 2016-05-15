@@ -29,7 +29,15 @@ import UIKit
 
     @IBOutlet var brain7: UIView!
 
+//    @IBAction func SYNCButtonAction(sender: AnyObject) {
+////        onClickCallback!()
+//    }
+
+//    var onClickCallback: (Void -> Void)?
     
+    
+    @IBOutlet weak var SYNCButton: UIButton!
+        
     func xibSetup() {
         view = loadViewFromNib()
         

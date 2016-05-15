@@ -16,7 +16,7 @@ class RankingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // UIScrollView need set contenSize
-        ranking.contentSize = CGSize(width: 1000, height: 144)
+        ranking.contentSize = CGSize(width: 1000, height: 138)
         ranking.contentOffset = CGPoint(x: 0, y: 0)
         ranking.alwaysBounceVertical.boolValue
         // Do any additional setup after loading the view.

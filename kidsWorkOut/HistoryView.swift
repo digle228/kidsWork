@@ -39,10 +39,15 @@ import UIKit
     @IBOutlet var year: UIView!
     
     
+    
+    
+    
+    
     // Our custom view from the XIB file
     
     func xibSetup() {
         view = loadViewFromNib()
+        
         
         // use bounds not frame or it'll be offset
         view.frame = bounds

@@ -29,6 +29,7 @@
 		91DEB0451CD128930040A3CB /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DEB0441CD128930040A3CB /* RankingViewController.swift */; };
 		91DEB0471CD12E610040A3CB /* MainPageBrainMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DEB0461CD12E610040A3CB /* MainPageBrainMan.swift */; };
 		91DEB0491CD12E8D0040A3CB /* MainPageBrainMan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DEB0481CD12E8D0040A3CB /* MainPageBrainMan.xib */; };
+		91F0CB2D1CE8101F0093CA05 /* SYNCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F0CB2C1CE8101F0093CA05 /* SYNCViewController.swift */; };
 		91F5C5DB1CD073B20049F7C0 /* HistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F5C5DA1CD073B20049F7C0 /* HistoryView.xib */; };
 		91F5C5DD1CD074210049F7C0 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F5C5DC1CD074210049F7C0 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		91DEB0441CD128930040A3CB /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		91DEB0461CD12E610040A3CB /* MainPageBrainMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageBrainMan.swift; sourceTree = "<group>"; };
 		91DEB0481CD12E8D0040A3CB /* MainPageBrainMan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageBrainMan.xib; sourceTree = "<group>"; };
+		91F0CB2C1CE8101F0093CA05 /* SYNCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYNCViewController.swift; sourceTree = "<group>"; };
 		91F5C5DA1CD073B20049F7C0 /* HistoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryView.xib; sourceTree = "<group>"; };
 		91F5C5DC1CD074210049F7C0 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				91746E491C86922C00695078 /* AppDelegate.swift */,
+				91F0CB2C1CE8101F0093CA05 /* SYNCViewController.swift */,
 				91746E621C8833E100695078 /* MainCollectionViewController.swift */,
 				91746E4B1C86922C00695078 /* ViewController.swift */,
 				91746E5E1C87C73800695078 /* MainPageViewController.swift */,
@@ -200,6 +203,7 @@
 				910B4E6B1CE06935008F6FA8 /* SettingTableViewController.swift in Sources */,
 				91746E5F1C87C73800695078 /* MainPageViewController.swift in Sources */,
 				91746E631C8833E100695078 /* MainCollectionViewController.swift in Sources */,
+				91F0CB2D1CE8101F0093CA05 /* SYNCViewController.swift in Sources */,
 				91746E5C1C86EA9500695078 /* MainTabBarViewController.swift in Sources */,
 				915293971CD4E283009A42E8 /* trackBar.swift in Sources */,
 				91746E4C1C86922C00695078 /* ViewController.swift in Sources */,

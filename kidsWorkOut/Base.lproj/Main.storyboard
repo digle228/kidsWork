@@ -271,32 +271,50 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vmd-r2-pYA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-GJ-AJg" userLabel="Both" customClass="HistoryView" customModule="kidsWorkOut" customModuleProvider="target">
-                                        <rect key="frame" x="6" y="930" width="363" height="437"/>
-                                        <color key="backgroundColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="437" id="kB2-96-T3a"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6TB-TH-4gB" customClass="HistoryView" customModule="kidsWorkOut" customModuleProvider="target">
-                                        <rect key="frame" x="6" y="472" width="363" height="450"/>
+                                        <rect key="frame" x="6" y="469" width="363" height="450"/>
                                         <color key="backgroundColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="450" id="3Za-NM-5Of"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CpN-qC-0kc" customClass="HistoryView" customModule="kidsWorkOut" customModuleProvider="target">
-                                        <rect key="frame" x="6" y="14" width="363" height="450"/>
+                                        <rect key="frame" x="6" y="11" width="363" height="450"/>
                                         <color key="backgroundColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="450" id="Wje-by-eWd"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-GJ-AJg" userLabel="Both" customClass="HistoryView" customModule="kidsWorkOut" customModuleProvider="target">
+                                        <rect key="frame" x="6" y="927" width="363" height="450"/>
+                                        <color key="backgroundColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="450" id="kB2-96-T3a"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="sTr-GJ-AJg" firstAttribute="leading" secondItem="vmd-r2-pYA" secondAttribute="leading" constant="6" id="0V0-uG-BFF"/>
                                     <constraint firstItem="6TB-TH-4gB" firstAttribute="top" secondItem="CpN-qC-0kc" secondAttribute="bottom" constant="8" symbolic="YES" id="0qh-8z-ItL"/>
-                                    <constraint firstItem="sTr-GJ-AJg" firstAttribute="top" secondItem="vmd-r2-pYA" secondAttribute="top" constant="930" id="5Xx-kT-Tbb"/>
+                                    <constraint firstItem="sTr-GJ-AJg" firstAttribute="top" secondItem="vmd-r2-pYA" secondAttribute="top" constant="927" id="5Xx-kT-Tbb"/>
                                     <constraint firstItem="sTr-GJ-AJg" firstAttribute="trailing" secondItem="CpN-qC-0kc" secondAttribute="trailing" id="8Ra-5x-sU3"/>
                                     <constraint firstAttribute="trailing" secondItem="sTr-GJ-AJg" secondAttribute="trailing" constant="6" id="NdT-Vo-RwS"/>
                                     <constraint firstItem="sTr-GJ-AJg" firstAttribute="centerX" secondItem="vmd-r2-pYA" secondAttribute="centerX" id="Ycb-Xq-y4Z"/>
@@ -383,7 +401,7 @@
                                     <rect key="frame" x="126" y="78" width="119" height="27"/>
                                 </variation>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="zzB-ay-I61">
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" defersCurrentPageDisplay="YES" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="zzB-ay-I61">
                                 <rect key="frame" x="136" y="579" width="103" height="37"/>
                                 <gestureRecognizers/>
                                 <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -412,14 +430,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1E-xi-tz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1515.5" y="1268.5"/>
-        </scene>
-        <!--Page View Controller Main-->
-        <scene sceneID="2O7-a5-rSE">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="by6-XO-7kt" customClass="pageViewControllerMain" customModule="kidsWorkOut" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k6I-nu-go1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2659" y="126"/>
         </scene>
         <!--Ranking View Controller-->
         <scene sceneID="RXK-tr-wcT">
@@ -994,6 +1004,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HkR-h8-d2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2257.5" y="1163.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gXo-P6-f9l">
+            <objects>
+                <viewController storyboardIdentifier="SYNCViewController" id="HkL-O5-Krc" customClass="SYNCViewController" customModule="kidsWorkOut" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u3i-VY-jFS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yd1-pC-p5k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="efj-ix-QMg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C9-pM-qYh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Riv-Vo-jd7">
+                                        <rect key="frame" x="8" y="27" width="39" height="30"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="backMainPage:" destination="HkL-O5-Krc" eventType="touchUpInside" id="VkG-wh-DTh"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yh8-bR-fga">
+                                        <rect key="frame" x="6" y="65" width="363" height="450"/>
+                                        <color key="backgroundColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Diw-VB-lUn">
+                                <rect key="frame" x="177" y="324" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="SYNCScrollView" destination="0C9-pM-qYh" id="bKN-Xa-Gmr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ir-yp-eAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3037.5" y="1099.5"/>
         </scene>
     </scenes>
     <resources>

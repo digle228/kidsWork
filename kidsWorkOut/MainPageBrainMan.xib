@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageBrainMan" customModule="kidsWorkOut" customModuleProvider="target">
             <connections>
+                <outlet property="SYNCButton" destination="5RW-JB-XAq" id="C1v-Jq-ajb"/>
                 <outlet property="brain1" destination="iN0-l3-epB" id="8M0-oY-tVF"/>
                 <outlet property="brain2" destination="JOX-Ng-QXk" id="3IY-Uf-eXX"/>
                 <outlet property="brain3" destination="JWu-GS-5fA" id="InO-5A-hhf"/>
@@ -21,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainx2" translatesAutoresizingMaskIntoConstraints="NO" id="u9m-Gl-SB5">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain2x-3" translatesAutoresizingMaskIntoConstraints="NO" id="u9m-Gl-SB5">
                     <rect key="frame" x="64" y="3" width="238" height="332"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZU-vd-UfK">
@@ -72,9 +73,9 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RW-JB-XAq">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BrainMan1SYNCButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RW-JB-XAq">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="1959ED9E-9E6B-4907-B75D-DF6C526EF7F3">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="789F30D3-4626-42E9-BB81-CEEEE52A8891">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -96,28 +97,28 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="runman" translatesAutoresizingMaskIntoConstraints="NO" id="B27-c7-iOc">
-                    <rect key="frame" x="27" y="-5" width="296" height="451"/>
+                    <rect key="frame" x="27" y="-13" width="296" height="451"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW0-X5-VKH">
-                    <rect key="frame" x="113" y="246" width="47" height="18"/>
+                    <rect key="frame" x="113" y="238" width="47" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmD-xX-bMT">
-                    <rect key="frame" x="172" y="246" width="45" height="18"/>
+                    <rect key="frame" x="172" y="238" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeJ-Zc-8hU">
-                    <rect key="frame" x="229" y="246" width="45" height="18"/>
+                    <rect key="frame" x="229" y="238" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7go-OI-d4C">
-                    <rect key="frame" x="187" y="269" width="13" height="71"/>
+                    <rect key="frame" x="187" y="261" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D4P-q2-qJY">
                             <rect key="frame" x="0.0" y="31" width="13" height="40"/>
@@ -127,7 +128,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhA-j7-D1i">
-                    <rect key="frame" x="244" y="269" width="13" height="71"/>
+                    <rect key="frame" x="244" y="261" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFw-EL-Lk3">
                             <rect key="frame" x="0.0" y="46" width="13" height="25"/>
@@ -137,7 +138,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eS2-v5-OGK">
-                    <rect key="frame" x="130" y="269" width="13" height="71"/>
+                    <rect key="frame" x="130" y="261" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsQ-Qk-XlF">
                             <rect key="frame" x="0.0" y="12" width="13" height="59"/>
@@ -147,13 +148,13 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-cl-AP1">
-                    <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="710A7ABC-3B0F-45D2-AF96-075F95EEB4D3">
+                    <rect key="frame" x="62" y="173" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="8CE946A3-5B84-4EA7-A06E-DBB980BCDD8A">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYN-vn-bob">
-                    <rect key="frame" x="78" y="206" width="34" height="15"/>
+                    <rect key="frame" x="78" y="198" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -222,7 +223,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTB-at-BdE">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="11976405-E422-4BD4-B083-446C3984D65D">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="3DA2FB70-5EDF-466C-9161-437E77B54248">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -296,7 +297,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-ga-fWe">
                     <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="D3124246-77C4-413A-807B-23E56301BBF4">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="87E8B85C-CE9C-4C02-A7E8-18E0DBA2C5E2">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -317,7 +318,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainx2" translatesAutoresizingMaskIntoConstraints="NO" id="adY-MC-YmD">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain2x-2" translatesAutoresizingMaskIntoConstraints="NO" id="adY-MC-YmD">
                     <rect key="frame" x="64" y="3" width="238" height="332"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNM-wc-4Ou">
@@ -369,13 +370,13 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbe-91-tGj">
-                    <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="5A658920-AB07-45B4-B5C0-9190FE93EEA9">
+                    <rect key="frame" x="228" y="134" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="1B9E5BA8-4480-4285-AF51-2CF8E12ED7A0">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rac-Oz-tPE">
-                    <rect key="frame" x="244" y="161" width="34" height="15"/>
+                    <rect key="frame" x="244" y="159" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -444,7 +445,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyj-j4-lJd">
                     <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="1F4B283A-FD09-4D7C-AD21-61464429C61B">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="261160D8-45B7-4B4B-AD4B-09427B68A6D2">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -518,7 +519,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bze-Oy-xAB">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="D9AE4E6C-4145-4E5F-B0FC-440A8905873E">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="0A8A13AD-AB6F-42F9-A19E-794D125FE1A9">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -537,7 +538,7 @@
         </view>
     </objects>
     <resources>
-        <image name="11976405-E422-4BD4-B083-446C3984D65D" width="100" height="100">
+        <image name="0A8A13AD-AB6F-42F9-A19E-794D125FE1A9" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1255,7 +1256,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="1959ED9E-9E6B-4907-B75D-DF6C526EF7F3" width="100" height="100">
+        <image name="1B9E5BA8-4480-4285-AF51-2CF8E12ED7A0" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1973,7 +1974,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="1F4B283A-FD09-4D7C-AD21-61464429C61B" width="100" height="100">
+        <image name="261160D8-45B7-4B4B-AD4B-09427B68A6D2" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2691,7 +2692,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="5A658920-AB07-45B4-B5C0-9190FE93EEA9" width="100" height="100">
+        <image name="3DA2FB70-5EDF-466C-9161-437E77B54248" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -3409,7 +3410,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="710A7ABC-3B0F-45D2-AF96-075F95EEB4D3" width="100" height="100">
+        <image name="789F30D3-4626-42E9-BB81-CEEEE52A8891" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4127,7 +4128,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="D3124246-77C4-413A-807B-23E56301BBF4" width="100" height="100">
+        <image name="87E8B85C-CE9C-4C02-A7E8-18E0DBA2C5E2" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4845,7 +4846,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="D9AE4E6C-4145-4E5F-B0FC-440A8905873E" width="100" height="100">
+        <image name="8CE946A3-5B84-4EA7-A06E-DBB980BCDD8A" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -5564,6 +5565,8 @@ AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
         <image name="SYNC-2-4" width="100" height="100"/>
+        <image name="brain2x-2" width="249" height="348"/>
+        <image name="brain2x-3" width="249" height="348"/>
         <image name="mainx2" width="249" height="348"/>
         <image name="runman" width="788" height="1105"/>
     </resources>

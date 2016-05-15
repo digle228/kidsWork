@@ -12,7 +12,6 @@ import UIKit
 
 class HistoryViewController: UIViewController {
     
-    @IBOutlet weak var backGroundView: UIView!
     
     @IBOutlet weak var heartRate: UIView!
     
@@ -45,24 +44,26 @@ class HistoryViewController: UIViewController {
 
     
     func ticView(segment : Int){
-        var recorder = [xibview.dayTic, xibview.weekTic, xibview.monthTic, xibview.yearTic]
-        tic.insertSubview(recorder[segment],atIndex: 0)
+        
+        var recorder1 = [xibview.dayTic, xibview.weekTic, xibview.monthTic, xibview.yearTic]
+        tic.insertSubview(recorder1[segment],atIndex: 1)
     }
     
     func hearRateView (segment : Int) {
-        var recorder = [xibview.day, xibview.week, xibview.month, xibview.year]
-        heartRate.insertSubview(recorder[segment],atIndex: 1)
+        var recorder2 = [xibview.day, xibview.week, xibview.month, xibview.year]
+        heartRate.insertSubview(recorder2[segment],atIndex: 2)
     }
 
     func both(segment: Int)  {
-        var recorder = [xibview.dayBoth, xibview.weekBoth, xibview.monthBoth, xibview.yearBoth]
+        var recorder3 = [xibview.dayBoth, xibview.weekBoth, xibview.monthBoth, xibview.yearBoth]
         
-        both.insertSubview(recorder[segment], atIndex: 2)
+        both.insertSubview(recorder3[segment], atIndex: 3)
     }
     
     @IBAction func HistoryButtonChange(sender: AnyObject) {
 
- 
+       
+        
         switch HistoryButton.selectedSegmentIndex {
         case 0:
             clearSubview()
@@ -70,7 +71,6 @@ class HistoryViewController: UIViewController {
             hearRateView(0)
             both(0)
 
-            //                    heartAndTic.insertSubview(recorder[1], atIndex: 0)
             
         case 1:
             clearSubview()
@@ -78,14 +78,12 @@ class HistoryViewController: UIViewController {
             hearRateView(1)
             both(1)
 
-        //                    heartAndTic.insertSubview(recorder[2], atIndex: 0)
         case 2:
             clearSubview()
             ticView(2)
             hearRateView(2)
             both(2)
 
-        //                    heartAndTic.insertSubview(recorder[3], atIndex: 0)
         case 3:
             clearSubview()
             ticView(3)
@@ -93,7 +91,6 @@ class HistoryViewController: UIViewController {
             both(3)
 
  
-        //                    heartAndTic.insertSubview(recorder[4], atIndex: 0)
         default:
             clearSubview()
             ticView(0)
@@ -102,7 +99,6 @@ class HistoryViewController: UIViewController {
 
 
 
-            //                    heartAndTic.insertSubview(recorder[0], atIndex: 0)
         }
         
     }
@@ -124,12 +120,12 @@ class HistoryViewController: UIViewController {
     
     let colors = gradientColors()
     
-    func refresh() {
-        let backgroundLayer = colors.gl
-        backgroundLayer.frame = backGroundView.bounds
-        //        backGroundView.layer.addSublayer(backgroundLayer)
-        backGroundView.layer.insertSublayer(backgroundLayer, atIndex: 0)
-    }
+//    func refresh() {
+//        let backgroundLayer = colors.gl
+//        backgroundLayer.frame = backGroundView.bounds
+//        //        backGroundView.layer.addSublayer(backgroundLayer)
+//        backGroundView.layer.insertSublayer(backgroundLayer, atIndex: 0)
+//    }
     
     
     //漸層指令
@@ -140,6 +136,9 @@ class HistoryViewController: UIViewController {
         super.viewDidLoad()
         
         self.ScrollViewForHistory.contentSize = CGSize(width: 375, height: 1300 )
+        ticView(0)
+        hearRateView(0)
+        both(0)
         
 //        self.ScrollViewForHistory.contentOffset = CGPoint(x: 375, y: 0)
 //        self.ScrollViewForHistory.setContentOffset(CGPoint(x: 375, y: 0), animated: true)
