@@ -12,7 +12,6 @@ class SYNCViewController: UIViewController {
     
     
     
-    @IBOutlet weak var SYNCScrollView: UIScrollView!
     
     @IBAction func backMainPage(sender: AnyObject) {
         let controller = storyboard!.instantiateInitialViewController()
@@ -27,11 +26,11 @@ class SYNCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var lightBlur = UIBlurEffect(style: UIBlurEffectStyle.Light)
-        var blurView = UIVisualEffectView(effect: lightBlur)
-        
-        self.SYNCScrollView.contentSize = CGSizeMake(375, 800)
-        self.view.backgroundColor = UIColor(colorLiteralRed: 218/255, green: 218/255, blue: 239/255, alpha: 0.1)
+//        var lightBlur = UIBlurEffect(style: UIBlurEffectStyle.Light)
+//        var blurView = UIVisualEffectView(effect: lightBlur)
+//        
+//        self.SYNCScrollView.contentSize = CGSizeMake(375, 800)
+        self.view.backgroundColor = UIColor(colorLiteralRed: 218/255, green: 218/255, blue: 239/255, alpha: 1)
         // Do any additional setup after loading the view.
     }
 

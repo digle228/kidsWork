@@ -10,6 +10,23 @@ import UIKit
 
 class ticRecoderViewController: UIViewController {
 
+    @IBAction func SaveToTicLog(sender: AnyObject) {
+        
+        alert()
+    }
+    
+    @IBAction func backMainPage(sender: AnyObject) {
+    
+        let controller = storyboard!.instantiateInitialViewController()
+        //換頁動畫方式
+        controller!.modalTransitionStyle = .PartialCurl
+        
+        self.presentViewController(controller!, animated: false) { () -> Void in
+        }
+
+    
+    
+    }
 //    @IBOutlet weak var ticAboutLife: UISlider!
 //    
 //    let step: Float = 1
@@ -49,7 +66,23 @@ class ticRecoderViewController: UIViewController {
     }
     
     
+    func alert(){
+        
+        let controller = storyboard!.instantiateInitialViewController()
+        let alertController = UIAlertController(title: "儲存成功", message: "回到主頁面", preferredStyle: UIAlertControllerStyle.Alert )
+        
+        
+        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.presentViewController(controller!, animated: false, completion: nil)
+        })
+        
+        alertController.addAction(callAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+        
+    }
 
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

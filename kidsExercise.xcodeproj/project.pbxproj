@@ -13,6 +13,7 @@
 		9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */; };
 		915293951CD4DE34009A42E8 /* trackBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915293941CD4DE34009A42E8 /* trackBar.xib */; };
 		915293971CD4E283009A42E8 /* trackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915293961CD4E283009A42E8 /* trackBar.swift */; };
+		9157A9961CECAF000004B591 /* SYNCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157A9951CECAF000004B591 /* SYNCTableViewController.swift */; };
 		91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E491C86922C00695078 /* AppDelegate.swift */; };
 		91746E4C1C86922C00695078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E4B1C86922C00695078 /* ViewController.swift */; };
 		91746E4F1C86922C00695078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91746E4D1C86922C00695078 /* Main.storyboard */; };
@@ -41,7 +42,8 @@
 		9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ticRecoderViewController.swift; sourceTree = "<group>"; };
 		915293941CD4DE34009A42E8 /* trackBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trackBar.xib; sourceTree = "<group>"; };
 		915293961CD4E283009A42E8 /* trackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trackBar.swift; sourceTree = "<group>"; };
-		91746E461C86922C00695078 /* kidsWorkOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsWorkOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9157A9951CECAF000004B591 /* SYNCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYNCTableViewController.swift; sourceTree = "<group>"; };
+		91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91746E491C86922C00695078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91746E4B1C86922C00695078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91746E4E1C86922C00695078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +88,7 @@
 		91746E471C86922C00695078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91746E461C86922C00695078 /* kidsWorkOut.app */,
+				91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +98,7 @@
 			children = (
 				91746E491C86922C00695078 /* AppDelegate.swift */,
 				91F0CB2C1CE8101F0093CA05 /* SYNCViewController.swift */,
+				9157A9951CECAF000004B591 /* SYNCTableViewController.swift */,
 				91746E621C8833E100695078 /* MainCollectionViewController.swift */,
 				91746E4B1C86922C00695078 /* ViewController.swift */,
 				91746E5E1C87C73800695078 /* MainPageViewController.swift */,
@@ -127,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91746E451C86922C00695078 /* kidsWorkOut */ = {
+		91746E451C86922C00695078 /* kidsExercise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91746E581C86922C00695078 /* Build configuration list for PBXNativeTarget "kidsWorkOut" */;
+			buildConfigurationList = 91746E581C86922C00695078 /* Build configuration list for PBXNativeTarget "kidsExercise" */;
 			buildPhases = (
 				91746E421C86922C00695078 /* Sources */,
 				91746E431C86922C00695078 /* Frameworks */,
@@ -139,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = kidsWorkOut;
+			name = kidsExercise;
 			productName = kidsWorkOut;
-			productReference = 91746E461C86922C00695078 /* kidsWorkOut.app */;
+			productReference = 91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91746E411C86922C00695078 /* Build configuration list for PBXProject "kidsWorkOut" */;
+			buildConfigurationList = 91746E411C86922C00695078 /* Build configuration list for PBXProject "kidsExercise" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -172,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91746E451C86922C00695078 /* kidsWorkOut */,
+				91746E451C86922C00695078 /* kidsExercise */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +217,7 @@
 				91DEB0471CD12E610040A3CB /* MainPageBrainMan.swift in Sources */,
 				91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */,
 				9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */,
+				9157A9961CECAF000004B591 /* SYNCTableViewController.swift in Sources */,
 				91746E611C87CED900695078 /* MainViewController.swift in Sources */,
 				91F5C5DD1CD074210049F7C0 /* HistoryView.swift in Sources */,
 				91912F1E1CA68D7700D8AC9A /* HistoryViewController.swift in Sources */,
@@ -330,8 +334,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = kidsWorkOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidsWorkOut;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidsExercise;
+				PRODUCT_NAME = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -342,15 +346,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = kidsWorkOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidsWorkOut;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidsExercise;
+				PRODUCT_NAME = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91746E411C86922C00695078 /* Build configuration list for PBXProject "kidsWorkOut" */ = {
+		91746E411C86922C00695078 /* Build configuration list for PBXProject "kidsExercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91746E561C86922C00695078 /* Debug */,
@@ -359,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91746E581C86922C00695078 /* Build configuration list for PBXNativeTarget "kidsWorkOut" */ = {
+		91746E581C86922C00695078 /* Build configuration list for PBXNativeTarget "kidsExercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91746E591C86922C00695078 /* Debug */,

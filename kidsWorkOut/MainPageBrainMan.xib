@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageBrainMan" customModule="kidsWorkOut" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageBrainMan" customModule="kidsExercise_temp_caseinsensitive_rename_temp_caseinsensitive_rename" customModuleProvider="target">
             <connections>
                 <outlet property="SYNCButton" destination="5RW-JB-XAq" id="C1v-Jq-ajb"/>
                 <outlet property="brain1" destination="iN0-l3-epB" id="8M0-oY-tVF"/>
@@ -75,7 +75,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BrainMan1SYNCButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RW-JB-XAq">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="789F30D3-4626-42E9-BB81-CEEEE52A8891">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="2436A50C-B572-4EEB-838B-8FE303118B4C">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -149,7 +149,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-cl-AP1">
                     <rect key="frame" x="62" y="173" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="8CE946A3-5B84-4EA7-A06E-DBB980BCDD8A">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="A4FE15C2-ED08-4281-89E0-078798517B3E">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -223,7 +223,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTB-at-BdE">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="3DA2FB70-5EDF-466C-9161-437E77B54248">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="1870BB12-B0E1-416D-953F-7EF8E1D9A0E1">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -297,7 +297,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-ga-fWe">
                     <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="87E8B85C-CE9C-4C02-A7E8-18E0DBA2C5E2">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="3AD80259-50AC-47C9-92B3-44745FF02F1A">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -371,7 +371,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbe-91-tGj">
                     <rect key="frame" x="228" y="134" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="1B9E5BA8-4480-4285-AF51-2CF8E12ED7A0">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="F71896E0-3C0C-43F4-B4D3-2F363444AE64">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -445,7 +445,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyj-j4-lJd">
                     <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="261160D8-45B7-4B4B-AD4B-09427B68A6D2">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="FFF7A4F8-DCA2-4A90-B45E-FA4DF0128607">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -519,7 +519,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bze-Oy-xAB">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="0A8A13AD-AB6F-42F9-A19E-794D125FE1A9">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="2ADE3E49-EAB9-44DA-8F59-999F7992AB30">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -538,7 +538,7 @@
         </view>
     </objects>
     <resources>
-        <image name="0A8A13AD-AB6F-42F9-A19E-794D125FE1A9" width="100" height="100">
+        <image name="1870BB12-B0E1-416D-953F-7EF8E1D9A0E1" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1256,7 +1256,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="1B9E5BA8-4480-4285-AF51-2CF8E12ED7A0" width="100" height="100">
+        <image name="2436A50C-B572-4EEB-838B-8FE303118B4C" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1974,7 +1974,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="261160D8-45B7-4B4B-AD4B-09427B68A6D2" width="100" height="100">
+        <image name="2ADE3E49-EAB9-44DA-8F59-999F7992AB30" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2692,7 +2692,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="3DA2FB70-5EDF-466C-9161-437E77B54248" width="100" height="100">
+        <image name="3AD80259-50AC-47C9-92B3-44745FF02F1A" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -3410,7 +3410,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="789F30D3-4626-42E9-BB81-CEEEE52A8891" width="100" height="100">
+        <image name="A4FE15C2-ED08-4281-89E0-078798517B3E" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4128,7 +4128,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="87E8B85C-CE9C-4C02-A7E8-18E0DBA2C5E2" width="100" height="100">
+        <image name="F71896E0-3C0C-43F4-B4D3-2F363444AE64" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4846,7 +4846,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="8CE946A3-5B84-4EA7-A06E-DBB980BCDD8A" width="100" height="100">
+        <image name="FFF7A4F8-DCA2-4A90-B45E-FA4DF0128607" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

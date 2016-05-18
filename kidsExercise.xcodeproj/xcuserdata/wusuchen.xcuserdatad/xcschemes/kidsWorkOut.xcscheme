@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91746E451C86922C00695078"
-               BuildableName = "kidsWorkOut.app"
-               BlueprintName = "kidsWorkOut"
-               ReferencedContainer = "container:kidsWorkOut.xcodeproj">
+               BuildableName = "kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+               BlueprintName = "kidsExercise"
+               ReferencedContainer = "container:kidsExercise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91746E451C86922C00695078"
-            BuildableName = "kidsWorkOut.app"
-            BlueprintName = "kidsWorkOut"
-            ReferencedContainer = "container:kidsWorkOut.xcodeproj">
+            BuildableName = "kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "kidsExercise"
+            ReferencedContainer = "container:kidsExercise.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91746E451C86922C00695078"
-            BuildableName = "kidsWorkOut.app"
-            BlueprintName = "kidsWorkOut"
-            ReferencedContainer = "container:kidsWorkOut.xcodeproj">
+            BuildableName = "kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "kidsExercise"
+            ReferencedContainer = "container:kidsExercise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91746E451C86922C00695078"
-            BuildableName = "kidsWorkOut.app"
-            BlueprintName = "kidsWorkOut"
-            ReferencedContainer = "container:kidsWorkOut.xcodeproj">
+            BuildableName = "kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "kidsExercise"
+            ReferencedContainer = "container:kidsExercise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
