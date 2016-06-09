@@ -10,9 +10,86 @@ import UIKit
 
 class AddFriendsTableViewController: UITableViewController {
 
+    @IBAction func close(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBOutlet weak var OneTableViewCell: UITableViewCell!
+    
+    @IBOutlet weak var TwoTableVIewCell: UITableViewCell!
+    @IBOutlet weak var ThreeTableVIewCell: UITableViewCell!
+    
+    
+    @IBOutlet weak var FourTableVIewCell: UITableViewCell!
+    
+    @IBOutlet weak var FiveTableVIewCell: UITableViewCell!
+    
+    
+    
+//    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue) {
+//    }
+//    
+//    @IBAction func savePlayerDetail(segue:UIStoryboardSegue) {
+//    }
+    
+    var friend = [friends]()
+    
+    
+    func loadSampleMeals() {
+        let photo1 = UIImage(named: "men")!
+        let meal1 = friends(name: "Caprese Salad", photo: photo1 )!
+        
+        let photo2 = UIImage(named: "men")!
+        let meal2 = friends(name: "Chicken and Potatoes", photo: photo2 )!
+        
+        let photo3 = UIImage(named: "men")!
+        let meal3 = friends(name: "Pasta with Meatballs", photo: photo3 )!
+        
+        friend += [meal1, meal2, meal3]
+    }
+    
+    
+    @IBAction func addFriends(sender: AnyObject) {
+        OneTableViewCell.removeFromSuperview()
+        
+    }
+    
+    
+    @IBAction func addFriendsTwo(sender: AnyObject) {
+        TwoTableVIewCell.removeFromSuperview()
+    }
+    
+    
+    @IBAction func addFriendsThree(sender: AnyObject) {
+        ThreeTableVIewCell.removeFromSuperview()
+    }
+    
+    
+    @IBAction func addFriendsFour(sender: AnyObject) {
+        
+        FourTableVIewCell.removeFromSuperview()
+        
+    }
+    
+    
+    
+    @IBAction func addFriendsFive(sender: AnyObject) {
+        
+        FiveTableVIewCell.removeFromSuperview()
+    }
+    
+    
+    
+    @IBOutlet weak var NameLabel: UILabel!
+    
+
+
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -25,18 +102,19 @@ class AddFriendsTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
     // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-
+//
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
+//
+//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 0
+//    }
+//
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)

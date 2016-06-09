@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		910B4E691CDECBDD008F6FA8 /* personalRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B4E681CDECBDD008F6FA8 /* personalRank.swift */; };
 		910B4E6B1CE06935008F6FA8 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B4E6A1CE06935008F6FA8 /* SettingTableViewController.swift */; };
+		91138FC91CF3027F00A7799F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91138FC81CF3027F00A7799F /* Storyboard.storyboard */; };
 		9113E5F21CD1CC000013AD08 /* pageViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113E5F11CD1CC000013AD08 /* pageViewControllerMain.swift */; };
+		912C79D81CF02C0E0029339A /* friendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C79D71CF02C0E0029339A /* friendList.swift */; };
+		912C79DA1CF0350A0029339A /* emailToFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C79D91CF0350A0029339A /* emailToFriendsTableViewController.swift */; };
 		9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */; };
 		915293951CD4DE34009A42E8 /* trackBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915293941CD4DE34009A42E8 /* trackBar.xib */; };
 		915293971CD4E283009A42E8 /* trackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915293961CD4E283009A42E8 /* trackBar.swift */; };
 		9157A9961CECAF000004B591 /* SYNCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157A9951CECAF000004B591 /* SYNCTableViewController.swift */; };
+		9157A9981CEDAD470004B591 /* AddFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157A9971CEDAD470004B591 /* AddFriendsTableViewController.swift */; };
 		91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E491C86922C00695078 /* AppDelegate.swift */; };
 		91746E4C1C86922C00695078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91746E4B1C86922C00695078 /* ViewController.swift */; };
 		91746E4F1C86922C00695078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91746E4D1C86922C00695078 /* Main.storyboard */; };
@@ -27,6 +31,9 @@
 		91912F1E1CA68D7700D8AC9A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91912F1D1CA68D7700D8AC9A /* HistoryViewController.swift */; };
 		9193D9181CD1A3B000422BA9 /* kidsWorkOutLanchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9193D9171CD1A3B000422BA9 /* kidsWorkOutLanchScreen.xib */; };
 		9193D91A1CD1AB8300422BA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9193D9191CD1AB8300422BA9 /* Images.xcassets */; };
+		91A5336E1CEDFEC80005B3BA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91A5336C1CEDFEC80005B3BA /* Model.xcdatamodeld */; };
+		91A533701CEEE0FF0005B3BA /* myDeatilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5336F1CEEE0FF0005B3BA /* myDeatilTableViewController.swift */; };
+		91A533721CEEE6770005B3BA /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A533711CEEE6770005B3BA /* FriendTableViewController.swift */; };
 		91DEB0451CD128930040A3CB /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DEB0441CD128930040A3CB /* RankingViewController.swift */; };
 		91DEB0471CD12E610040A3CB /* MainPageBrainMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DEB0461CD12E610040A3CB /* MainPageBrainMan.swift */; };
 		91DEB0491CD12E8D0040A3CB /* MainPageBrainMan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DEB0481CD12E8D0040A3CB /* MainPageBrainMan.xib */; };
@@ -38,12 +45,16 @@
 /* Begin PBXFileReference section */
 		910B4E681CDECBDD008F6FA8 /* personalRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personalRank.swift; sourceTree = "<group>"; };
 		910B4E6A1CE06935008F6FA8 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		91138FC81CF3027F00A7799F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		9113E5F11CD1CC000013AD08 /* pageViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageViewControllerMain.swift; sourceTree = "<group>"; };
+		912C79D71CF02C0E0029339A /* friendList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendList.swift; sourceTree = "<group>"; };
+		912C79D91CF0350A0029339A /* emailToFriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emailToFriendsTableViewController.swift; sourceTree = "<group>"; };
 		9147B9AD1CD3A60600ADE77F /* ticRecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ticRecoderViewController.swift; sourceTree = "<group>"; };
 		915293941CD4DE34009A42E8 /* trackBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trackBar.xib; sourceTree = "<group>"; };
 		915293961CD4E283009A42E8 /* trackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trackBar.swift; sourceTree = "<group>"; };
 		9157A9951CECAF000004B591 /* SYNCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYNCTableViewController.swift; sourceTree = "<group>"; };
-		91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9157A9971CEDAD470004B591 /* AddFriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsTableViewController.swift; sourceTree = "<group>"; };
+		91746E461C86922C00695078 /* 妥妥動起來.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "妥妥動起來.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91746E491C86922C00695078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91746E4B1C86922C00695078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91746E4E1C86922C00695078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +69,9 @@
 		91912F1D1CA68D7700D8AC9A /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9193D9171CD1A3B000422BA9 /* kidsWorkOutLanchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = kidsWorkOutLanchScreen.xib; sourceTree = "<group>"; };
 		9193D9191CD1AB8300422BA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91A5336D1CEDFEC80005B3BA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		91A5336F1CEEE0FF0005B3BA /* myDeatilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myDeatilTableViewController.swift; sourceTree = "<group>"; };
+		91A533711CEEE6770005B3BA /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
 		91DEB0441CD128930040A3CB /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		91DEB0461CD12E610040A3CB /* MainPageBrainMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageBrainMan.swift; sourceTree = "<group>"; };
 		91DEB0481CD12E8D0040A3CB /* MainPageBrainMan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageBrainMan.xib; sourceTree = "<group>"; };
@@ -77,9 +91,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9157A9991CEDF45C0004B591 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				91A5336C1CEDFEC80005B3BA /* Model.xcdatamodeld */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		91746E3D1C86922C00695078 = {
 			isa = PBXGroup;
 			children = (
+				9157A9991CEDF45C0004B591 /* data */,
 				91746E481C86922C00695078 /* kidsWorkOut */,
 				91746E471C86922C00695078 /* Products */,
 			);
@@ -88,7 +111,7 @@
 		91746E471C86922C00695078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */,
+				91746E461C86922C00695078 /* 妥妥動起來.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +121,15 @@
 			children = (
 				91746E491C86922C00695078 /* AppDelegate.swift */,
 				91F0CB2C1CE8101F0093CA05 /* SYNCViewController.swift */,
+				91A5336F1CEEE0FF0005B3BA /* myDeatilTableViewController.swift */,
 				9157A9951CECAF000004B591 /* SYNCTableViewController.swift */,
 				91746E621C8833E100695078 /* MainCollectionViewController.swift */,
+				91A533711CEEE6770005B3BA /* FriendTableViewController.swift */,
 				91746E4B1C86922C00695078 /* ViewController.swift */,
+				912C79D71CF02C0E0029339A /* friendList.swift */,
 				91746E5E1C87C73800695078 /* MainPageViewController.swift */,
+				9157A9971CEDAD470004B591 /* AddFriendsTableViewController.swift */,
+				912C79D91CF0350A0029339A /* emailToFriendsTableViewController.swift */,
 				91746E601C87CED900695078 /* MainViewController.swift */,
 				910B4E681CDECBDD008F6FA8 /* personalRank.swift */,
 				91DEB0441CD128930040A3CB /* RankingViewController.swift */,
@@ -119,6 +147,7 @@
 				9113E5F11CD1CC000013AD08 /* pageViewControllerMain.swift */,
 				91746E501C86922C00695078 /* Assets.xcassets */,
 				91746E4D1C86922C00695078 /* Main.storyboard */,
+				91138FC81CF3027F00A7799F /* Storyboard.storyboard */,
 				91746E521C86922C00695078 /* LaunchScreen.storyboard */,
 				9193D9171CD1A3B000422BA9 /* kidsWorkOutLanchScreen.xib */,
 				91746E551C86922C00695078 /* Info.plist */,
@@ -144,7 +173,7 @@
 			);
 			name = kidsExercise;
 			productName = kidsWorkOut;
-			productReference = 91746E461C86922C00695078 /* kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */;
+			productReference = 91746E461C86922C00695078 /* 妥妥動起來.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,6 +216,7 @@
 			files = (
 				91746E541C86922C00695078 /* LaunchScreen.storyboard in Resources */,
 				91F5C5DB1CD073B20049F7C0 /* HistoryView.xib in Resources */,
+				91138FC91CF3027F00A7799F /* Storyboard.storyboard in Resources */,
 				9193D91A1CD1AB8300422BA9 /* Images.xcassets in Resources */,
 				91DEB0491CD12E8D0040A3CB /* MainPageBrainMan.xib in Resources */,
 				91746E511C86922C00695078 /* Assets.xcassets in Resources */,
@@ -210,17 +240,23 @@
 				91746E5C1C86EA9500695078 /* MainTabBarViewController.swift in Sources */,
 				915293971CD4E283009A42E8 /* trackBar.swift in Sources */,
 				91746E4C1C86922C00695078 /* ViewController.swift in Sources */,
+				91A533721CEEE6770005B3BA /* FriendTableViewController.swift in Sources */,
+				91A5336E1CEDFEC80005B3BA /* Model.xcdatamodeld in Sources */,
 				9113E5F21CD1CC000013AD08 /* pageViewControllerMain.swift in Sources */,
 				91912F1C1CA41C1200D8AC9A /* firstPageViewController.swift in Sources */,
 				91DEB0451CD128930040A3CB /* RankingViewController.swift in Sources */,
 				910B4E691CDECBDD008F6FA8 /* personalRank.swift in Sources */,
+				91A533701CEEE0FF0005B3BA /* myDeatilTableViewController.swift in Sources */,
 				91DEB0471CD12E610040A3CB /* MainPageBrainMan.swift in Sources */,
 				91746E4A1C86922C00695078 /* AppDelegate.swift in Sources */,
 				9147B9AE1CD3A60600ADE77F /* ticRecoderViewController.swift in Sources */,
+				9157A9981CEDAD470004B591 /* AddFriendsTableViewController.swift in Sources */,
+				912C79D81CF02C0E0029339A /* friendList.swift in Sources */,
 				9157A9961CECAF000004B591 /* SYNCTableViewController.swift in Sources */,
 				91746E611C87CED900695078 /* MainViewController.swift in Sources */,
 				91F5C5DD1CD074210049F7C0 /* HistoryView.swift in Sources */,
 				91912F1E1CA68D7700D8AC9A /* HistoryViewController.swift in Sources */,
+				912C79DA1CF0350A0029339A /* emailToFriendsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +371,7 @@
 				INFOPLIST_FILE = kidsWorkOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kidsExercise;
-				PRODUCT_NAME = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PRODUCT_NAME = "妥妥動起來";
 			};
 			name = Debug;
 		};
@@ -347,7 +383,7 @@
 				INFOPLIST_FILE = kidsWorkOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kidsExercise;
-				PRODUCT_NAME = kidsExercise.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PRODUCT_NAME = "妥妥動起來";
 			};
 			name = Release;
 		};
@@ -373,6 +409,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91A5336C1CEDFEC80005B3BA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91A5336D1CEDFEC80005B3BA /* Model.xcdatamodel */,
+			);
+			currentVersion = 91A5336D1CEDFEC80005B3BA /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = kidsWorkOut/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91746E3E1C86922C00695078 /* Project object */;
 }

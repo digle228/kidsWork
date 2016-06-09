@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageBrainMan" customModule="kidsExercise_temp_caseinsensitive_rename_temp_caseinsensitive_rename" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageBrainMan" customModule="妥妥動起來" customModuleProvider="target">
             <connections>
                 <outlet property="SYNCButton" destination="5RW-JB-XAq" id="C1v-Jq-ajb"/>
                 <outlet property="brain1" destination="iN0-l3-epB" id="8M0-oY-tVF"/>
@@ -75,7 +75,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BrainMan1SYNCButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RW-JB-XAq">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="2436A50C-B572-4EEB-838B-8FE303118B4C">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="302F73F3-856E-4F8D-9A24-55232F307715">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -149,7 +149,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-cl-AP1">
                     <rect key="frame" x="62" y="173" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="A4FE15C2-ED08-4281-89E0-078798517B3E">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="B3FA8DDB-6FF7-428A-B1B7-AD5533E256E2">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -170,11 +170,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainx2" translatesAutoresizingMaskIntoConstraints="NO" id="qGt-lk-ngy">
-                    <rect key="frame" x="64" y="3" width="238" height="332"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain4" translatesAutoresizingMaskIntoConstraints="NO" id="qGt-lk-ngy">
+                    <rect key="frame" x="33" y="6" width="294" height="410"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ava-GX-oCB">
-                    <rect key="frame" x="177" y="264" width="13" height="71"/>
+                    <rect key="frame" x="177" y="249" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Trf-la-cxM">
                             <rect key="frame" x="0.0" y="31" width="13" height="40"/>
@@ -184,7 +184,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSB-Iy-cuF">
-                    <rect key="frame" x="234" y="264" width="13" height="71"/>
+                    <rect key="frame" x="234" y="249" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="izV-k1-wRw">
                             <rect key="frame" x="0.0" y="46" width="13" height="25"/>
@@ -194,7 +194,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mMV-Dv-zJ2">
-                    <rect key="frame" x="120" y="264" width="13" height="71"/>
+                    <rect key="frame" x="120" y="249" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7IU-gs-QD7">
                             <rect key="frame" x="0.0" y="12" width="13" height="59"/>
@@ -204,31 +204,31 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jI-Ek-VOX">
-                    <rect key="frame" x="104" y="238" width="47" height="18"/>
+                    <rect key="frame" x="104" y="223" width="47" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXi-hS-31E">
-                    <rect key="frame" x="163" y="238" width="45" height="18"/>
+                    <rect key="frame" x="163" y="223" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqA-H1-f3K">
-                    <rect key="frame" x="220" y="238" width="45" height="18"/>
+                    <rect key="frame" x="220" y="223" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTB-at-BdE">
-                    <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="1870BB12-B0E1-416D-953F-7EF8E1D9A0E1">
+                    <rect key="frame" x="278" y="166" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="217EE4E9-042C-4498-AC14-611F1F059D75">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZJ-FN-7fZ">
-                    <rect key="frame" x="244" y="161" width="34" height="15"/>
+                    <rect key="frame" x="294" y="191" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -244,29 +244,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="runman" translatesAutoresizingMaskIntoConstraints="NO" id="afP-x6-Qwo">
-                    <rect key="frame" x="27" y="-5" width="296" height="451"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain6" translatesAutoresizingMaskIntoConstraints="NO" id="afP-x6-Qwo">
+                    <rect key="frame" x="38" y="-57" width="330" height="504"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiY-Ly-T6O">
-                    <rect key="frame" x="113" y="246" width="47" height="18"/>
+                    <rect key="frame" x="113" y="231" width="47" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URf-Yb-0Iz">
-                    <rect key="frame" x="172" y="246" width="45" height="18"/>
+                    <rect key="frame" x="172" y="231" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vv1-il-VIY">
-                    <rect key="frame" x="229" y="246" width="45" height="18"/>
+                    <rect key="frame" x="229" y="231" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9X3-FH-WLJ">
-                    <rect key="frame" x="187" y="269" width="13" height="71"/>
+                    <rect key="frame" x="187" y="254" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DUI-B1-NBe">
                             <rect key="frame" x="0.0" y="31" width="13" height="40"/>
@@ -276,7 +276,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iiZ-Kf-XzH">
-                    <rect key="frame" x="244" y="269" width="13" height="71"/>
+                    <rect key="frame" x="244" y="254" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eAF-Cc-FI9">
                             <rect key="frame" x="0.0" y="46" width="13" height="25"/>
@@ -286,7 +286,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crf-b6-orS">
-                    <rect key="frame" x="130" y="269" width="13" height="71"/>
+                    <rect key="frame" x="130" y="254" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-ZW-bWe">
                             <rect key="frame" x="0.0" y="12" width="13" height="59"/>
@@ -296,13 +296,13 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-ga-fWe">
-                    <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="3AD80259-50AC-47C9-92B3-44745FF02F1A">
+                    <rect key="frame" x="283" y="56" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="8D3B3D24-1B24-4AA1-BB40-6BE85A2C41CA">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTK-aI-N54">
-                    <rect key="frame" x="78" y="206" width="34" height="15"/>
+                    <rect key="frame" x="299" y="81" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -318,8 +318,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain2x-2" translatesAutoresizingMaskIntoConstraints="NO" id="adY-MC-YmD">
-                    <rect key="frame" x="64" y="3" width="238" height="332"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain3" translatesAutoresizingMaskIntoConstraints="NO" id="adY-MC-YmD">
+                    <rect key="frame" x="5" y="-32" width="290" height="405"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNM-wc-4Ou">
                     <rect key="frame" x="177" y="264" width="13" height="71"/>
@@ -370,13 +370,13 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbe-91-tGj">
-                    <rect key="frame" x="228" y="134" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="F71896E0-3C0C-43F4-B4D3-2F363444AE64">
+                    <rect key="frame" x="280" y="238" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="A8B04F7F-5D6D-44B2-88DC-A3D894E0E2CB">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rac-Oz-tPE">
-                    <rect key="frame" x="244" y="159" width="34" height="15"/>
+                    <rect key="frame" x="296" y="263" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -392,29 +392,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="runman" translatesAutoresizingMaskIntoConstraints="NO" id="qae-H4-BdU">
-                    <rect key="frame" x="27" y="-5" width="296" height="451"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain5" translatesAutoresizingMaskIntoConstraints="NO" id="qae-H4-BdU">
+                    <rect key="frame" x="22" y="-45" width="330" height="504"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT3-nq-3ib">
-                    <rect key="frame" x="113" y="246" width="47" height="18"/>
+                    <rect key="frame" x="113" y="230" width="47" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ8-61-Une">
-                    <rect key="frame" x="172" y="246" width="45" height="18"/>
+                    <rect key="frame" x="172" y="230" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDP-cA-sqs">
-                    <rect key="frame" x="229" y="246" width="45" height="18"/>
+                    <rect key="frame" x="229" y="230" width="45" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g06-GD-wyW">
-                    <rect key="frame" x="187" y="269" width="13" height="71"/>
+                    <rect key="frame" x="187" y="253" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bc4-yt-Hnk">
                             <rect key="frame" x="0.0" y="31" width="13" height="40"/>
@@ -424,7 +424,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcc-P1-ckE">
-                    <rect key="frame" x="244" y="269" width="13" height="71"/>
+                    <rect key="frame" x="244" y="253" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XyW-fJ-kh4">
                             <rect key="frame" x="0.0" y="46" width="13" height="25"/>
@@ -434,7 +434,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJr-kO-fSP">
-                    <rect key="frame" x="130" y="269" width="13" height="71"/>
+                    <rect key="frame" x="130" y="253" width="13" height="71"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Od4-Y3-52B">
                             <rect key="frame" x="0.0" y="12" width="13" height="59"/>
@@ -444,13 +444,13 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyj-j4-lJd">
-                    <rect key="frame" x="62" y="181" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="FFF7A4F8-DCA2-4A90-B45E-FA4DF0128607">
+                    <rect key="frame" x="20" y="200" width="65" height="65"/>
+                    <state key="normal" image="SYNC-2-4" backgroundImage="AEB22BD1-07C8-433A-9365-E835638E5D3B">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SYNC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISf-JX-Kp1">
-                    <rect key="frame" x="78" y="206" width="34" height="15"/>
+                    <rect key="frame" x="36" y="225" width="34" height="15"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                     <color key="textColor" red="0.27450980390000002" green="0.2784313725" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.054901960780000002" green="0.37254901959999998" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -519,7 +519,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bze-Oy-xAB">
                     <rect key="frame" x="228" y="136" width="65" height="65"/>
-                    <state key="normal" image="SYNC-2-4" backgroundImage="2ADE3E49-EAB9-44DA-8F59-999F7992AB30">
+                    <state key="normal" image="SYNC-2-4" backgroundImage="C091DBF0-C1B9-462C-BD2A-FEBACA63F00B">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -538,7 +538,7 @@
         </view>
     </objects>
     <resources>
-        <image name="1870BB12-B0E1-416D-953F-7EF8E1D9A0E1" width="100" height="100">
+        <image name="217EE4E9-042C-4498-AC14-611F1F059D75" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1256,7 +1256,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="2436A50C-B572-4EEB-838B-8FE303118B4C" width="100" height="100">
+        <image name="302F73F3-856E-4F8D-9A24-55232F307715" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1974,7 +1974,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="2ADE3E49-EAB9-44DA-8F59-999F7992AB30" width="100" height="100">
+        <image name="8D3B3D24-1B24-4AA1-BB40-6BE85A2C41CA" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2692,7 +2692,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="3AD80259-50AC-47C9-92B3-44745FF02F1A" width="100" height="100">
+        <image name="A8B04F7F-5D6D-44B2-88DC-A3D894E0E2CB" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -3410,7 +3410,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="A4FE15C2-ED08-4281-89E0-078798517B3E" width="100" height="100">
+        <image name="AEB22BD1-07C8-433A-9365-E835638E5D3B" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4128,7 +4128,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="F71896E0-3C0C-43F4-B4D3-2F363444AE64" width="100" height="100">
+        <image name="B3FA8DDB-6FF7-428A-B1B7-AD5533E256E2" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4846,7 +4846,7 @@ pfGl/KYFpgqmEqYVphqmKaYtpjSmPKZJpk6mUKZSplemX6Zipmemb6ZypoSmh6aMAAAAAAAAAgEAAAAA
 AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
-        <image name="FFF7A4F8-DCA2-4A90-B45E-FA4DF0128607" width="100" height="100">
+        <image name="C091DBF0-C1B9-462C-BD2A-FEBACA63F00B" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -5565,8 +5565,11 @@ AAAAQQAAAAAAAAAAAAAAAAAApo4
 </mutableData>
         </image>
         <image name="SYNC-2-4" width="100" height="100"/>
-        <image name="brain2x-2" width="249" height="348"/>
         <image name="brain2x-3" width="249" height="348"/>
+        <image name="brain3" width="367" height="417"/>
+        <image name="brain4" width="391" height="529"/>
+        <image name="brain5" width="429" height="518"/>
+        <image name="brain6" width="425" height="415"/>
         <image name="mainx2" width="249" height="348"/>
         <image name="runman" width="788" height="1105"/>
     </resources>

@@ -16,13 +16,14 @@ class ticRecoderViewController: UIViewController {
     }
     
     @IBAction func backMainPage(sender: AnyObject) {
-    
-        let controller = storyboard!.instantiateInitialViewController()
-        //換頁動畫方式
-        controller!.modalTransitionStyle = .PartialCurl
-        
-        self.presentViewController(controller!, animated: false) { () -> Void in
-        }
+
+        dismissViewControllerAnimated(true, completion: nil)//
+//        let controller = storyboard!.instantiateInitialViewController()
+//        //換頁動畫方式
+//        controller!.modalTransitionStyle = .PartialCurl
+//        
+//        self.presentViewController(controller!, animated: false) { () -> Void in
+//        }
 
     
     
@@ -51,9 +52,23 @@ class ticRecoderViewController: UIViewController {
 //
     
 
-    @IBOutlet weak var trackLabel: UILabel!
     
     @IBOutlet weak var trackView: UIView!
+    
+
+    @IBAction func backMainPageTicLog(sender: AnyObject) {
+                dismissViewControllerAnimated(true, completion: nil)
+//        let controller = storyboard!.instantiateInitialViewController()
+//        //換頁動畫方式
+//        controller!.modalTransitionStyle = .PartialCurl
+//        
+//        self.presentViewController(controller!, animated: false) { () -> Void in
+//        }
+        
+    }
+    
+
+    
     
     
     override func viewDidLoad() {
@@ -68,11 +83,11 @@ class ticRecoderViewController: UIViewController {
     
     func alert(){
         
-        let controller = storyboard!.instantiateInitialViewController()
+        let controller = storyboard!.instantiateViewControllerWithIdentifier("MainPage")
         let alertController = UIAlertController(title: "儲存成功", message: "回到主頁面", preferredStyle: UIAlertControllerStyle.Alert )
         
         
-        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.presentViewController(controller!, animated: false, completion: nil)
+        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.presentViewController(controller, animated: false, completion: nil)
         })
         
         alertController.addAction(callAction)

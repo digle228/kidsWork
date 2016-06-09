@@ -20,8 +20,27 @@ class RankingViewController: UIViewController {
         ranking.contentOffset = CGPoint(x: 0, y: 0)
         ranking.alwaysBounceVertical.boolValue
         // Do any additional setup after loading the view.
+        
+        
     }
 
+           
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let personalController = segue.destinationViewController as! personalRank
+        
+        switch segue.identifier! {
+        case "One" :
+           personalController.type =  personalType.One
+        case "Two" :
+            personalController.type = personalType.Two
+        case "Three" :
+            personalController.type = personalType.Three
+            
+        default:
+            break
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

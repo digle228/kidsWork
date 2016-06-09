@@ -30,7 +30,7 @@ import UIKit
         
         let roundedValue = round(sender.value / step) * step
         sender.value = roundedValue
-        var currentValue = Int(sender.value)
+        let currentValue = Int(sender.value)
         trackBarTextLabel.text = "\(currentValue)"
 
     }

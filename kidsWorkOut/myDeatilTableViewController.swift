@@ -8,8 +8,61 @@
 
 import UIKit
 
-class myDeatilTableViewController: UITableViewController {
+class myDeatilTableViewController: UITableViewController, UIImagePickerControllerDelegate {
 
+
+
+   
+    
+    @IBAction func savePersonal(sender: AnyObject) {
+        alert()
+    }
+    
+    
+    @IBAction func cancelPersonal(sender: AnyObject) {
+
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
+
+        
+    }
+    
+    
+    
+    
+    @IBAction func backPage(sender: AnyObject) {
+        let controller = self.storyboard?.instantiateViewControllerWithIdentifier("friendMainPage")
+        //換頁動畫方式
+        controller!.modalTransitionStyle = .PartialCurl
+        
+       
+//        self.presentViewController(controller, animated: false) { () -> Void in
+//        }
+//        self.presentViewController(controller!, animated: false, completion: nil)
+
+        self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
+
+    
+    
+    
+    func alert(){
+        
+        let alertController = UIAlertController(title: "儲存成功", message: "", preferredStyle: UIAlertControllerStyle.Alert )
+        
+        
+        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.dismissViewControllerAnimated(true, completion: nil)
+
+        })
+        
+        alertController.addAction(callAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+        
+    }
+
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,16 +80,16 @@ class myDeatilTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
+//
+//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 0
+//    }
+//
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)

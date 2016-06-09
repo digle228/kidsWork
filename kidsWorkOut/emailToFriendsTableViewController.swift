@@ -10,6 +10,15 @@ import UIKit
 
 class emailToFriendsTableViewController: UITableViewController {
 
+    @IBOutlet weak var closePage: UIButton!
+    
+    
+    @IBAction func closePage(sender: AnyObject) {
+   self.dismissViewControllerAnimated(true, completion: nil)
+    
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

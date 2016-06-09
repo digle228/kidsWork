@@ -30,6 +30,9 @@ class MainViewController: UIViewController, UIScrollViewDelegate{
     let brainmanInxibview = MainPageBrainMan()
     
     
+    @IBAction func logOutButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
     
     func SYNCView (sender: AnyObject) {

@@ -10,16 +10,38 @@ import UIKit
 
 class SYNCTableViewController: UITableViewController {
 
+    @IBAction func saveButton(sender: AnyObject) {
+        
+        alert()
+
+    }
+    
+    @IBAction func shareButton(sender: AnyObject) {
+        
+        sharealert() 
+        
+    }
+    @IBAction func cancelButton(sender: AnyObject) {
+        let controller = storyboard!.instantiateViewControllerWithIdentifier("MainPage")
+        //換頁動畫方式
+        controller.modalTransitionStyle = .PartialCurl
+        
+        self.presentViewController(controller, animated: false) { () -> Void in
+        }
+        
+    }
+    
     
     @IBOutlet weak var RunAnimation: UIActivityIndicatorView!
     
     @IBAction func backMainPage(sender: AnyObject) {
-        let controller = storyboard!.instantiateInitialViewController()
-        //換頁動畫方式
-        controller!.modalTransitionStyle = .PartialCurl
-        
-        self.presentViewController(controller!, animated: false) { () -> Void in
-        }
+        dismissViewControllerAnimated(true, completion: nil)
+//        let controller = storyboard!.instantiateInitialViewController()
+//        //換頁動畫方式
+//        controller!.modalTransitionStyle = .PartialCurl
+//        
+//        self.presentViewController(controller!, animated: false) { () -> Void in
+//        }
         
     }
 
@@ -27,7 +49,6 @@ class SYNCTableViewController: UITableViewController {
         super.viewDidLoad()
         
         RunAnimation.startAnimating()
-        
         
         
         // Uncomment the following line to preserve selection between presentations
@@ -40,11 +61,11 @@ class SYNCTableViewController: UITableViewController {
     
     func alert(){
         
-        let controller = storyboard!.instantiateInitialViewController()
+        let controller = storyboard!.instantiateViewControllerWithIdentifier("MainPage")
         let alertController = UIAlertController(title: "儲存成功", message: "回到主頁面", preferredStyle: UIAlertControllerStyle.Alert )
         
         
-        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.presentViewController(controller!, animated: false, completion: nil)
+        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in self.presentViewController(controller, animated: false, completion: nil)
  })
         
         alertController.addAction(callAction)
@@ -53,11 +74,51 @@ class SYNCTableViewController: UITableViewController {
         
     }
     
+    func sucessalert(){
+        
+//        let controller = storyboard!.instantiateViewControllerWithIdentifier("MainPage")
+//        let backInsamePage = storyboard!.instantiateViewControllerWithIdentifier("SYNCViewController")
+        
+        
+        let alertController = UIAlertController(title: "分享成功", message: "", preferredStyle: UIAlertControllerStyle.Alert )
+        
+        
+        let callAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Destructive, handler: { action in
+        })
+        
+        alertController.addAction(callAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+        
+    }
+    
+
+    
+    
+    func sharealert()  {
+        
+        
+        let alertController = UIAlertController(title: "分享運動記錄", message: "", preferredStyle: UIAlertControllerStyle.ActionSheet)
+        let callAction = UIAlertAction(title: "分享到FaceBook", style: UIAlertActionStyle.Default , handler: {
+            action in self.sucessalert()
+        })
+        
+        let callAction2 = UIAlertAction(title: "取消", style: UIAlertActionStyle.Cancel, handler: {
+            action in  })
+        
+        alertController.addAction(callAction)
+        alertController.addAction(callAction2)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+        
+    }
+
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    
-        alert()
-    
+        RunAnimation.stopAnimating()
+
+        
     }
 
 
